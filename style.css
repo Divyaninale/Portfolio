@@ -911,7 +911,7 @@ footer{
         }
         @media (max-width: 768px) {
             .horizontal-bar {
-                width: 180%; /* Full width on mobile devices */
+                width: 80%; /* Full width on mobile devices */
             }
         }
 

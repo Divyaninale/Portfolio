@@ -980,6 +980,15 @@ footer{
                
                 margin-right: 15px;
             }
+            header .user img{
+    height:15rem;
+    width: 15rem;
+    border-radius: 50%;
+
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: .5rem solid white;
+}
             
 
 

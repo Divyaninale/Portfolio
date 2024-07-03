@@ -138,7 +138,7 @@ header .navbar ul li a{
     color: #fff;
     font-size: 1.5rem;
     border-radius: 5rem;
-    margin-left: 3rem;
+    margin-left: 2rem;
 }
 
 header .navbar ul li a:hover{
@@ -460,7 +460,7 @@ h2{
     border: 2px solid var(--red); /* Red border */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     max-width: 600px; /* Control the card width */
-    margin: 20px; /* Add margin for spacing */
+    margin: 10px; /* Add margin for spacing */
     display: flex;
     align-items: flex-start;
 }
@@ -468,11 +468,7 @@ h2{
 .experience-card img {
     width: 50px; /* Width of the logo */
     height: 50px; /* Height of the logo */
-    margin-right: 20px; /* Space between the logo and text */
-    border-radius: 5px; /* Optional: Rounded corners for the logo */
-    margin-left: 10px;
-    margin-top: 20px;
-    margin-right: 10px;
+    
     
 
 }
@@ -483,7 +479,9 @@ h2{
     color: var(--yellow); /* Yellow color for subheading */
 }
 .experience-card div {
-    margin-left: 0%;
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 90%;
 }
 
 .experience-card h4 {
@@ -972,7 +970,7 @@ footer{
             }
         
             .experience-card img {
-                margin-right: 0;
+                margin-right: 5;
                
                 margin-right: 15px;
             }

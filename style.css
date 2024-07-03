@@ -138,6 +138,7 @@ header .navbar ul li a{
     color: #fff;
     font-size: 1.5rem;
     border-radius: 5rem;
+    margin-left: 2rem;
 }
 
 header .navbar ul li a:hover{
@@ -435,7 +436,7 @@ h2{
     font-size: 15px;
     color: var(--white); /* White color for paragraph */
     margin-bottom: 40px;
-    margin: 10px 10px;
+   
 }
 
 .horizontal-bar {
@@ -471,6 +472,7 @@ h2{
     border-radius: 5px; /* Optional: Rounded corners for the logo */
     margin-left: 10px;
     margin-top: 20px;
+    margin-right: 10px;
     
 
 }
@@ -500,9 +502,9 @@ h2{
 
 .experience-card p {
     
-    margin: 10px;
-    text-align: justify;
-    
+    text-align: start;
+    margin-right: 20px;
+    margin-bottom: 2px;
     
     
     
@@ -529,7 +531,7 @@ h2{
     content: "•"; /* Bullet point (dot) */
     color: var(--yellow); /* Yellow color */
     margin-right: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 
@@ -958,7 +960,23 @@ footer{
             }
         }
         /* Reset default margin and padding */
-
+        @media (max-width: 768px) {
+            .experience-card-container {
+                flex-direction: column;
+                align-items: center;
+            }
+        
+            .experience-card {
+                width: 100%;
+                height: 30%;
+            }
+        
+            .experience-card img {
+                margin-right: 0;
+               
+                margin-right: 15px;
+            }
+            
 
 
 }

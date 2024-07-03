@@ -848,6 +848,7 @@ footer{
     .about .row .counter .box{
         width:100%
     }
+}    
 
     @media (max-width: 768px) {
         .about {
@@ -865,6 +866,11 @@ footer{
     
         .box {
             width: 80%;
+        }
+        .skills-section p{
+            padding-left: 8px;
+            padding-right: 8px;
+
         }
         
     }
@@ -926,7 +932,7 @@ footer{
             }
         
             .horizontal-bar {
-                width: 100%;
+                width: 80%;
                 height: 4px;
                 margin-bottom: 15px;
             }
